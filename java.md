@@ -5,3 +5,6 @@
 5. [Streams and Collections in Java](https://www.geeksforgeeks.org/difference-between-streams-and-collections-in-java/)
 6. [Stack vs Heap Memory Allocation](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)
 7. [Procedural and Object Oriented Programming](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/)
+8. [How To Switch Multiple Java Versions in Windows](https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/)
+9. [Storing Hashed Password to Database in Java (Using Bcrypt)](https://www.devglan.com/spring-mvc/storing-hashed-password-database-java)
+10. [Spring Boot Security Password Encoding using Bcrypt Encoder](https://www.devglan.com/spring-security/spring-boot-security-password-encoding-bcrypt-encoder)
