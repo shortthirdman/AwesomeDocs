@@ -1,0 +1,8 @@
+1. [Enable ES6 (and beyond) syntax with Node and Express](https://www.freecodecamp.org/news/how-to-enable-es6-and-beyond-syntax-with-node-and-express-68d3e11fe1ab/)
+2. [Getting On with ES6 & NodeJS & eslint (without Babel !)](https://dev.to/tusharpandey13/getting-on-with-es6-nodejs-eslint-without-babel-4ip7)
+3. [Writing Your Node.js Apps Using ES6](https://www.codementor.io/@iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o)
+4. [Video Streaming Server using NodeJS](https://dev.to/abdisalan_js/how-to-code-a-video-streaming-server-using-nodejs-2o0)
+5. [Video Streaming Server using MongoDB](https://dev.to/abdisalan_js/how-to-stream-video-from-mongodb-using-nodejs-4ibi)
+6. [Advantages of Observable versus Promise](https://medium.com/@manuelalejandropm/advantages-of-observable-versus-promise-cbc0095995aa)
+7. [REST API Using Node.js, Express.js, and PostgreSQL](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
+8. [Getting Started with Node, Express and Postgres Using Sequelize](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
