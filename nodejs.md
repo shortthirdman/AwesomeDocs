@@ -6,3 +6,5 @@
 6. [Advantages of Observable versus Promise](https://medium.com/@manuelalejandropm/advantages-of-observable-versus-promise-cbc0095995aa)
 7. [REST API Using Node.js, Express.js, and PostgreSQL](https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/)
 8. [Getting Started with Node, Express and Postgres Using Sequelize](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
+9. [Send Email Using SendGrid and Nodejs](https://www.nodejsera.com/send-email-using-sendgrid-nodejs.html)
+10. [Sending Mails With Nodemailer](https://blog.mailtrap.io/sending-emails-with-nodemailer/)
