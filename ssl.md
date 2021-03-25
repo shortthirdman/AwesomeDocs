@@ -1,3 +1,5 @@
 1. [Create and Install an Apache Self-Signed Certificate](https://www.sslshopper.com/article-how-to-create-and-install-an-apache-self-signed-certificate.html)
 2. [Creating your own SSL certificate authority](https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/)
 3. [SSL Certificate Authority for local HTTPS development](https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/)
+4. [Creating self-signed SSL certificates with OpenSSL](https://www.devdungeon.com/content/creating-self-signed-ssl-certificates-openssl)
+5. [Using SSL in local development](https://blog.revathskumar.com/2020/07/using-ssl-in-local-development.html)
