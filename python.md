@@ -6,3 +6,7 @@
 6. [Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana](https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/)
 7. [COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
 8. [Real-time Face detection | Face Mask Detection using OpenCV](https://www.mygreatlearning.com/blog/real-time-face-detection/)
+9. [Mining Twitter Data With Python - Part 1](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)
+10. [Scraping COVID-19 Statistics Using BeautifulSoup](https://www.geeksforgeeks.org/scraping-covid-19-statistics-using-beautifulsoup/)
+11. [Create and Modify PDF Files in Python](https://realpython.com/creating-modifying-pdf/)
+12. [Downloading Files with Python](https://tobiasraabe.github.io/blog/how-to-download-files-with-python.html)
