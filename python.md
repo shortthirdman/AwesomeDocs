@@ -1,0 +1,8 @@
+1. [OpenCV Age Detection with Deep Learning](https://www.pyimagesearch.com/2020/04/13/opencv-age-detection-with-deep-learning/)
+2. [Gender & Age Classification using OpenCV Deep Learning ( C++/Python )](https://www.learnopencv.com/age-gender-classification-using-opencv-deep-learning-c-python/)
+3. [Face Detection In Python Using A Webcam](https://realpython.com/face-detection-in-python-using-a-webcam/)
+4. [Face Detection With Python](https://realpython.com/face-recognition-with-python/)
+5. [Make a Twitter Bot in Python With Tweepy](https://realpython.com/twitter-bot-python-tweepy/)
+6. [Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana](https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/)
+7. [COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+8. [Real-time Face detection | Face Mask Detection using OpenCV](https://www.mygreatlearning.com/blog/real-time-face-detection/)
