@@ -1,0 +1,7 @@
+1. [Design Good Key for HashMap](https://howtodoinjava.com/java/collections/hashmap/design-good-key-for-hashmap/)
+2. [How HashMap works in Java](https://howtodoinjava.com/java/collections/hashmap/how-hashmap-works-in-java/)
+3. [Volatile and Transient Keywords in Java](https://www.geeksforgeeks.org/difference-between-volatile-and-transient-keywords-in-java/)
+4. [Serialization and Deserialization in Java](https://www.geeksforgeeks.org/serialization-in-java/)
+5. [Streams and Collections in Java](https://www.geeksforgeeks.org/difference-between-streams-and-collections-in-java/)
+6. [Stack vs Heap Memory Allocation](https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/)
+7. [Procedural and Object Oriented Programming](https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/)
