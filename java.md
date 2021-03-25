@@ -8,3 +8,4 @@
 8. [How To Switch Multiple Java Versions in Windows](https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/)
 9. [Storing Hashed Password to Database in Java (Using Bcrypt)](https://www.devglan.com/spring-mvc/storing-hashed-password-database-java)
 10. [Spring Boot Security Password Encoding using Bcrypt Encoder](https://www.devglan.com/spring-security/spring-boot-security-password-encoding-bcrypt-encoder)
+11. [Using Spring Boot for OAuth2 and JWT REST Protection](https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection)
