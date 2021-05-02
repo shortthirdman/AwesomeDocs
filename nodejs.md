@@ -1,3 +1,5 @@
+## Useful Resources
+
 1. [Enable ES6 (and beyond) syntax with Node and Express](https://www.freecodecamp.org/news/how-to-enable-es6-and-beyond-syntax-with-node-and-express-68d3e11fe1ab/)
 2. [Getting On with ES6 & NodeJS & eslint (without Babel !)](https://dev.to/tusharpandey13/getting-on-with-es6-nodejs-eslint-without-babel-4ip7)
 3. [Writing Your Node.js Apps Using ES6](https://www.codementor.io/@iykyvic/writing-your-nodejs-apps-using-es6-6dh0edw2o)
@@ -8,3 +10,11 @@
 8. [Getting Started with Node, Express and Postgres Using Sequelize](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
 9. [Send Email Using SendGrid and Nodejs](https://www.nodejsera.com/send-email-using-sendgrid-nodejs.html)
 10. [Sending Mails With Nodemailer](https://blog.mailtrap.io/sending-emails-with-nodemailer/)
+
+## Configuring NPM
+
+```shell
+npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
+npm config set script-shell "C:\\Program Files (x86)\\git\\bin\\bash.exe"
+npm config delete script-shell
+```
