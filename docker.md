@@ -2,3 +2,5 @@
 2. [Serve Angular Application With NGINX and Docker](https://medium.com/bb-tutorials-and-thoughts/how-to-serve-angular-application-with-nginx-and-docker-3af45be5b854)
 3. [Dockerizing an Angular App](https://mherman.org/blog/dockerizing-an-angular-app/)
 4. [Securing our Docker image](https://buddy.works/tutorials/securing-docker-image)
+5. [Optimizing Dockerfile for Node.js (Part 1)](https://buddy.works/tutorials/optimizing-dockerfile-for-node-js-part-1)
+6. [Optimizing Dockerfile for Node.js (Part 2)](https://buddy.works/tutorials/optimizing-dockerfile-for-node-js-part-2)
