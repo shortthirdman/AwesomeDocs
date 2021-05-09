@@ -4,3 +4,4 @@
 4. [Angular 8 - Integrate Stripe Payment Gateway](https://w3path.com/angular-8-integrate-stripe-payment-gateway/)
 5. [Deploying Angular apps in Nginx](https://www.devdungeon.com/content/deploy-angular-apps-nginx)
 6. [Deploy Angular application to NGINX](https://www.devglan.com/angular/deploy-angular-app-nginx)
+7. [Build a full-stack web application with Angular 7 and Nest.js](https://buddy.works/tutorials/build-a-full-stack-web-application-with-angular-7-and-nest-js)
