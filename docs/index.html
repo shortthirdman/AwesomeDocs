@@ -48,6 +48,49 @@
 
     <title>AwesomeDocs</title>
   </head>
+  <style>
+	html, body {
+		overflow-x: hidden;
+		height: 100%;
+	}
+	.h-center {
+		display: flex;
+		justify-content: center;
+	}
+
+	.v-center {
+		display: flex;
+		align-items: center;
+	}
+
+	.vh-center {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.g-center {
+		display: grid;
+		place-items: center;
+		height: 100vh;
+	}
+
+	.responsive-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+	}
+
+	.responsive-flex {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: flex;
+	}
+
+	.drop-shadow {
+		filter: drop-shadow(2px 4px 8px #585858);
+	}
+  </style>
   <body onload="greet()">
 	<div class="jumbotron jumbotron-fluid">
 	  <div class="container">
