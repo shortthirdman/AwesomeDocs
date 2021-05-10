@@ -1,0 +1,23 @@
+<div class="container">
+    <p class="h4"><i class="fab fa-java"></i> Java</p>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover" id="java">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Article</th>
+                    <th scope="col">Source</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of articles">
+                    <th scope="row">{{ item?.id }}</th>
+                    <td>{{ item?.title }}</td>
+                    <td>{{ item?.source }}</td>
+                    <td>{{ item?.url }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="assets/images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="AwesomeDocs">
+    Bootstrap
+  </a>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+	<h1 class="display-4">Welcome to AwesomeDocs!</h1>
+	<p class="lead">Awesome and helpful resources and references covering various topics</p>
+	<hr class="my-4">
+	<a class="btn btn-primary btn-lg" href="https://github.com/shortthirdman/AwesomeDocs" role="button">Learn more</a>
+  </div>
+  <div class="container">
+	<ul class="nav nav-pills">
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/angular" routerLinkActive="active">Angular</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/java" routerLinkActive="active">Java</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/nodejs" routerLinkActive="active">Node.js</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/security" routerLinkActive="active">Security</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/powershell" routerLinkActive="active">PowerShell</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/devops" routerLinkActive="active">DevOps</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/python" routerLinkActive="active">Python</a>
+	  </li>
+	  <li class="nav-item">
+		<a class="nav-link" routeLink="/linux" routerLinkActive="active">Linux</a>
+	  </li>
+	</ul>
+  </div>
+</div>
+<main id="content">
+	<router-outlet></router-outlet>
+</main>
