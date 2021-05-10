@@ -1,5 +1,7 @@
 # AwesomeDocs
 
+[![Node.js CI](https://github.com/shortthirdman/AwesomeDocs/actions/workflows/node.js.yml/badge.svg?event=push)](https://github.com/shortthirdman/AwesomeDocs/actions/workflows/node.js.yml)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
 ## Development server
