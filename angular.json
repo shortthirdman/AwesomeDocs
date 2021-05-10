@@ -146,16 +146,6 @@
               "devServerTarget": "awesomedocs-site:serve:production"
             }
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-			"baseHref": "https://shortthirdman.github.io/AwesomeDocs/",
-			"name": "Swetank Mohanty",
-			"email": "swetank.mohanty@outlook.com",
-			"branch": "main",
-			"noSilent": false
-		  }
         }
       }
     }
