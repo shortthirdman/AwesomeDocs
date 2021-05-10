@@ -23,7 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "../docs",
+            "outputPath": "dist/AwesomeDocs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -36,7 +36,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-			  {
+              {
                 "input": "node_modules/jquery/dist/jquery.min.js",
                 "inject": true,
                 "bundleName": "jquery.min"
@@ -46,7 +46,7 @@
                 "inject": true,
                 "bundleName": "bootstrap.bundle.min"
               }
-			]
+            ]
           },
           "configurations": {
             "production": {
@@ -109,7 +109,7 @@
               "src/styles.scss"
             ],
             "scripts": [
-			  {
+              {
                 "input": "node_modules/jquery/dist/jquery.min.js",
                 "inject": true,
                 "bundleName": "jquery.min"
@@ -119,7 +119,7 @@
                 "inject": true,
                 "bundleName": "bootstrap.bundle.min"
               }
-			]
+            ]
           }
         },
         "lint": {
@@ -146,6 +146,16 @@
               "devServerTarget": "awesomedocs-site:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+			"baseHref": "https://shortthirdman.github.io/AwesomeDocs/",
+			"name": "Swetank Mohanty",
+			"email": "swetank.mohanty@outlook.com",
+			"branch": "main",
+			"noSilent": false
+		  }
         }
       }
     }
