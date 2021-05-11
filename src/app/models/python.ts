@@ -57,36 +57,30 @@ export const PYTHON_RESOURCES: Array<Article> = [
     },
 	{
         id: 10,
-        title: 'Mining Twitter Data With Python - Part 2',
-        source: 'Marco Bonzanini',
-        url: null
-    },
-	{
-        id: 11,
         title: 'Scraping COVID-19 Statistics Using BeautifulSoup',
         source: 'Geeks For Geeks',
         url: 'https://www.geeksforgeeks.org/scraping-covid-19-statistics-using-beautifulsoup/'
     },
 	{
-        id: 12,
+        id: 11,
         title: 'Create and Modify PDF Files in Python',
         source: 'Real Python',
         url: 'https://realpython.com/creating-modifying-pdf/'
     },
 	{
-        id: 13,
+        id: 12,
         title: 'Downloading Files with Python',
         source: 'Tobias Raabe',
         url: 'https://tobiasraabe.github.io/blog/how-to-download-files-with-python.html'
     },
 	{
-        id: 14,
+        id: 13,
         title: '21 Places to Find Free Datasets for Data Science Projects',
         source: 'Data Quest',
         url: 'https://www.dataquest.io/blog/free-datasets-for-projects/'
     },
 	{
-        id: 15,
+        id: 14,
         title: 'Find Free Public Data Sets for Your Data Science Project',
         source: 'Spring Board',
         url: 'https://www.springboard.com/blog/free-public-data-sets-data-science-project/'
