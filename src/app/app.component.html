@@ -11,7 +11,7 @@
 	<hr class="my-4">
 	<a class="btn btn-primary btn-lg" href="https://github.com/shortthirdman/AwesomeDocs" role="button">Learn more</a>
   </div>
-  <div class="container">
+  <div class="container mt-4">
 	<ul class="nav nav-pills">
 	  <ng-container *ngFor="let item of navLinks">
 	    <li class="nav-item" (click)="navigateTo(item?.route)">
@@ -21,7 +21,7 @@
 	</ul>
   </div>
 </div>
-<main id="content" class="mt-2 p-4 p-md-5 pt-5">
+<main id="content" class="mt-1 p-4 p-md-5 pt-5">
 	<!-- <perfect-scrollbar class="scroll-container" [scrollIndicators]="true" [config]="config" [usePSClass]="true"> -->
 	<router-outlet></router-outlet>
 	<!-- </perfect-scrollbar> -->

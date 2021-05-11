@@ -24,6 +24,9 @@ export class AppComponent implements OnInit {
   
   ngOnInit(): void  {
 	this.showAccreditions();
+	document.addEventListener("DOMContentLoaded", function(event) {
+		document.documentElement.setAttribute("data-theme", "dark");
+	});
   }
   
   private showAccreditions() {
