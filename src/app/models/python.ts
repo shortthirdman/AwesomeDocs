@@ -30,7 +30,7 @@ export const PYTHON_RESOURCES: Array<Article> = [
         title: 'Make a Twitter Bot in Python With Tweepy',
         source: 'Real Python',
         url: 'https://realpython.com/twitter-bot-python-tweepy/'
-    }
+    },
 	{
         id: 6,
         title: 'Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana',
