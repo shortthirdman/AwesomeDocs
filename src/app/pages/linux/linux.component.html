@@ -1,1 +1,25 @@
-<p>linux works!</p>
+<div class="container">
+    <p class="h4 my-2"><i class="fab fa-linux"></i> UNIX/Linux</p>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover" id="linux">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Article</th>
+                    <th scope="col">Source</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of articles">
+                    <th scope="row">{{ item?.id }}</th>
+                    <td>{{ item?.title }}</td>
+                    <td>{{ item?.source }}</td>
+                    <td>
+						<a href="{{ item.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>
+					</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
