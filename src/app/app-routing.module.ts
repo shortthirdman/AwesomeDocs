@@ -9,8 +9,12 @@ import { NodejsComponent } from './pages/nodejs/nodejs.component';
 import { PowershellComponent } from './pages/powershell/powershell.component';
 import { PythonComponent } from './pages/python/python.component';
 import { SecurityComponent } from './pages/security/security.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 const routes: Routes = [
+	{
+		path: '', redirectTo: 'angular', pathMatch: 'full'
+	},
 	{
 		path: 'angular', component: AngularComponent, data: { pageTitle: 'Angular' }
 	},
@@ -34,13 +38,16 @@ const routes: Routes = [
 	},
 	{
 		path: 'devops', component: DevOpsComponent, data: { pageTitle: 'DevOps' }
+	},
+	{
+		path: '**', component: PageNotFoundComponent, data: { pageTitle: '404 Not Found' }
 	}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { enableTracing: false, useHash: false, onSameUrlNavigation: "reload" })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
 
-export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent];
+export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent];

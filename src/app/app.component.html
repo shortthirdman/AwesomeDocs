@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-light">
   <a class="navbar-brand" href="#">
     <img src="assets/images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="AwesomeDocs">
-    Bootstrap
+    AwesomeDocs
   </a>
 </nav>
 <div class="jumbotron jumbotron-fluid">
@@ -13,33 +13,16 @@
   </div>
   <div class="container">
 	<ul class="nav nav-pills">
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/angular" routerLinkActive="active">Angular</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/java" routerLinkActive="active">Java</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/nodejs" routerLinkActive="active">Node.js</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/security" routerLinkActive="active">Security</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/powershell" routerLinkActive="active">PowerShell</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/devops" routerLinkActive="active">DevOps</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/python" routerLinkActive="active">Python</a>
-	  </li>
-	  <li class="nav-item">
-		<a class="nav-link" routeLink="/linux" routerLinkActive="active">Linux</a>
-	  </li>
+	  <ng-container *ngFor="let item of navLinks">
+	    <li class="nav-item" (click)="navigateTo(item?.route)">
+		  <a class="nav-link" [routerLink]="item?.route" [routerLinkActive]="'active'">{{ item?.label }}</a>
+	    </li>
+	  </ng-container>
 	</ul>
   </div>
 </div>
-<main id="content">
+<main id="content" class="mt-2 p-4 p-md-5 pt-5">
+	<!-- <perfect-scrollbar class="scroll-container" [scrollIndicators]="true" [config]="config" [usePSClass]="true"> -->
 	<router-outlet></router-outlet>
+	<!-- </perfect-scrollbar> -->
 </main>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'awd-root',
@@ -6,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'awesomedocs-site';
+
+  navLinks: any[] = [
+	{ label: 'Angular', route: 'angular' },
+	{ label: 'Python', route: 'python' },
+	{ label: 'Java', route: 'java' },
+	{ label: 'Node.js', route: 'nodejs' },
+	{ label: 'DevOps', route: 'devops' },
+	{ label: 'PowerShell', route: 'powershell' },
+	{ label: 'UNIX/Linux', route: 'linux' },
+	{ label: 'Security', route: 'security' }
+  ];
   
-  constructor() {
+  constructor(private router: Router) {
   }
   
   ngOnInit(): void  {
@@ -19,5 +30,9 @@ export class AppComponent implements OnInit {
 	console.log(`Font Awesome Free 5.15.0 by @fontawesome - https://fontawesome.com
 		License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
 	`);
+  }
+  
+  navigateTo(path: string) {
+	this.router.navigate([path]);
   }
 }

@@ -1,5 +1,5 @@
 <div class="container">
-    <p class="h5"><i class="fab fa-angular"></i> Angular</p>
+    <p class="h4"><i class="fab fa-angular"></i> Angular</p>
     <div class="table-responsive">
         <table class="table table-bordered table-hover" id="angular">
             <thead>
@@ -15,7 +15,9 @@
                     <th scope="row">{{ item?.id }}</th>
                     <td>{{ item?.title }}</td>
                     <td>{{ item?.source }}</td>
-                    <td>{{ item.url }}</td>
+                    <td>
+						<a href="{{ item.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>
+					</td>
                 </tr>
             </tbody>
         </table>
