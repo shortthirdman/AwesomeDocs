@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
 	{ label: 'Python', route: 'python' },
 	{ label: 'Java', route: 'java' },
 	{ label: 'Node.js', route: 'nodejs' },
+	{ label: 'Git', route: 'git' },
 	{ label: 'DevOps', route: 'devops' },
 	{ label: 'PowerShell', route: 'powershell' },
 	{ label: 'UNIX/Linux', route: 'linux' },

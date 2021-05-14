@@ -1,0 +1,43 @@
+<div class="container">
+	<p class="h4 my-2"><i class="fab fa-git"></i> Git</p>
+	<div class="table-responsive" *ngIf="articles.length > 0">
+        <table class="table table-bordered table-hover" id="git">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Article</th>
+                    <th scope="col">Source</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of articles">
+                    <th scope="row">{{ item?.id }}</th>
+                    <td>
+						<p class="lead">{{ item?.title }}</p>
+					</td>
+                    <td>
+						<p class="lead">{{ item?.source }}</p>
+					</td>
+                    <td>
+						<a href="{{ item.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>
+					</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">To count the commits in a date range in your current branch do this:</p>
+			<p class=""><code>git rev-list --count HEAD --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot;</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">If you want the count for all branches in one go use --all additionally</p>
+			<p class=""><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">If you want to exclude merge-commits, use option --no-merges</p>
+			<p class=""><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all --no-merges</code></p>
+		</li>
+	</ul>
+</div>

@@ -10,6 +10,7 @@ import { PowershellComponent } from './pages/powershell/powershell.component';
 import { PythonComponent } from './pages/python/python.component';
 import { SecurityComponent } from './pages/security/security.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { GitComponent } from './pages/git/git.component';
 
 const routes: Routes = [
 	{
@@ -31,6 +32,9 @@ const routes: Routes = [
 		path: 'security', component: SecurityComponent, data: { pageTitle: 'SSL' }
 	},
 	{
+		path: 'git', component: GitComponent, data: { pageTitle: 'Git' }
+	},
+	{
 		path: 'powershell', component: PowershellComponent, data: { pageTitle: 'Windows PowerShell' }
 	},
 	{
@@ -50,4 +54,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent];
+export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent, GitComponent];
