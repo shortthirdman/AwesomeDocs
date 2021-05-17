@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
 
+  title: string = 'AwesomeDocs';
   navLinks: any[] = [
 	{ label: 'Angular', route: 'angular' },
 	{ label: 'Python', route: 'python' },
