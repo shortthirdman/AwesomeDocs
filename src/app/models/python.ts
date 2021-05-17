@@ -84,5 +84,11 @@ export const PYTHON_RESOURCES: Array<Article> = [
         title: 'Find Free Public Data Sets for Your Data Science Project',
         source: 'Spring Board',
         url: 'https://www.springboard.com/blog/free-public-data-sets-data-science-project/'
-    }
+    },
+	{
+		id: 15,
+		title: 'Send Notifications To Your Webapp Using Python',
+		source: 'FreeCodeCamp',
+		url: 'https://www.freecodecamp.org/news/how-to-send-notifications-to-your-web-app-using-python-ba490b893292/'
+	}
 ];
