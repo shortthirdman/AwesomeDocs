@@ -1,5 +1,6 @@
 # AwesomeDocs
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e84947b974f4fbfa5f354f94ea2f802)](https://app.codacy.com/gh/shortthirdman/AwesomeDocs?utm_source=github.com&utm_medium=referral&utm_content=shortthirdman/AwesomeDocs&utm_campaign=Badge_Grade_Settings)
 [![Node.js CI](https://github.com/shortthirdman/AwesomeDocs/actions/workflows/node.js.yml/badge.svg?event=push)](https://github.com/shortthirdman/AwesomeDocs/actions/workflows/node.js.yml)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
