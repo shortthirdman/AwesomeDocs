@@ -14,10 +14,10 @@
                 <tr *ngFor="let item of articles">
                     <th scope="row">{{ item?.id }}</th>
                     <td>
-						<p class="lead">{{ item?.title }}</p>
+						<label class="text-muted">{{ item?.title }}</label>
 					</td>
                     <td>
-						<p class="lead">{{ item?.source }}</p>
+						<label class="text-muted">{{ item?.source }}</label>
 					</td>
                     <td>
 						<a href="{{ item.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>
