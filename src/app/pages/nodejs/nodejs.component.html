@@ -26,14 +26,23 @@
             </tbody>
         </table>
     </div>
-	<pre>
-      <code class="user-select-none">
-        npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"
-        npm config set script-shell "C:\\Program Files (x86)\\git\\bin\\bash.exe"
-        npm config delete script-shell
-	  </code>
-	  <code class="user-select-none">
-		npm config set registry https://registry.npmjs.org/
-	  </code>
-	</pre>
+	
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">To set the NPM registry server in Windows</p>
+			<p class="user-select-none"><code>npm config set registry https://registry.npmjs.org/</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To set shell for npm run-scripts in Windows (x64)</p>
+			<p class="user-select-none"><code>npm config set script-shell "C:\\Program Files\\git\\bin\\bash.exe"</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To set shell for npm run-scripts in Windows (x86)</p>
+			<p class="user-select-none"><code>npm config set script-shell "C:\\Program Files (x86)\\git\\bin\\bash.exe"</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To unset shell for npm run-scripts in Windows</p>
+			<p class="user-select-none"><code>npm config delete script-shell</code></p>
+		</li>
+	</ul>
 </div>
