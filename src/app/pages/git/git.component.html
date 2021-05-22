@@ -1,31 +1,6 @@
 <div class="container">
 	<p class="h4 my-2"><i class="fab fa-git"></i> Git</p>
-	<div class="table-responsive" *ngIf="articles.length > 0">
-        <table class="table table-bordered table-hover" id="git">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Article</th>
-                    <th scope="col">Source</th>
-                    <th scope="col">Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let item of articles">
-                    <th scope="row">{{ item?.id }}</th>
-                    <td>
-						<label class="text-muted">{{ item?.title }}</label>
-					</td>
-                    <td>
-						<label class="text-muted">{{ item?.source }}</label>
-					</td>
-                    <td>
-						<a href="{{ item.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>
-					</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+	<awd-article-list [tableId]='git' [articles]='articles'></awd-article-list>
 	<ul class="list-unstyled">
 		<li>
 			<p class="font-weight-bold text-muted">To count the commits in a date range in your current branch</p>

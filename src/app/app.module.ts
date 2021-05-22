@@ -8,13 +8,15 @@ import en from '@angular/common/locales/en';
 
 import { AppRoutingModule, routeComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArticleListComponent } from './pages/article-list/article-list.component';
 
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-	routeComponents
+	routeComponents,
+	ArticleListComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,7 @@ registerLocaleData(en);
 	AppRoutingModule
   ],
   providers: [],
-  exports: [ routeComponents ],
+  exports: [ routeComponents, ArticleListComponent ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
