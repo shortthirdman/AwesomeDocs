@@ -60,5 +60,11 @@ export const NODEJS_RESOURCES: Array<Article> = [
         title: 'Sending Mails With Nodemailer',
         source: 'Mailtrap',
         url: 'https://blog.mailtrap.io/sending-emails-with-nodemailer/'
-    }
+    },
+	{
+		id: 11,
+		title: 'Scheduling tasks in Node.js using node-cron',
+		source: 'LogRocket',
+		url: 'https://blog.logrocket.com/task-scheduling-or-cron-jobs-in-node-using-node-cron/'
+	}
 ];
