@@ -1,7 +1,7 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CommonModule } from '@angular/common';
+import { CommonModule, DatePipe } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
@@ -26,7 +26,7 @@ registerLocaleData(en);
 	
 	AppRoutingModule
   ],
-  providers: [],
+  providers: [DatePipe],
   exports: [ routeComponents, ArticleListComponent ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
