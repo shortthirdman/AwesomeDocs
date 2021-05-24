@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, AfterViewInit {
 
   title: string = 'AwesomeDocs';
   navLinks: any[] = [
@@ -26,10 +26,9 @@ export class AppComponent implements OnInit {
   
   ngOnInit(): void  {
 	this.showAccreditions();
-	document.addEventListener("DOMContentLoaded", (event) => {
-		console.log(event);
-		// document.documentElement.setAttribute('data-theme', 'dark');
-	});
+  }
+  
+  ngAfterViewInit(): void {
 	document.documentElement.setAttribute('data-theme', 'dark');
   }
   
