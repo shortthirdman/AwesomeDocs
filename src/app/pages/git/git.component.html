@@ -1,18 +1,88 @@
 <div class="container">
 	<p class="h4 my-2"><i class="fab fa-git"></i> Git</p>
 	<awd-article-list [tableId]="'git'" [articles]="articles"></awd-article-list>
+
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">To configure the user name and email address</p>
+			<p class="user-select-auto"><code>git config --global user.name &quot;full_name&quot;</code></p>
+			<p class="user-select-auto"><code>git config --global user.email &quot;email_address&quot;</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To tell Git to verify SSL or not (for HTTP and HTTPS)</p>
+			<p class="user-select-auto"><code>git config --global https.sslVerify false | true</code></p>
+			<p class="user-select-auto"><code>git config --global http.sslVerify | true</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To set and configure HTTP/HTTPS proxy</p>
+			<p class="user-select-auto"><code>git config --global https.proxy http://user:pass@yourproxy:port</code></p>
+			<p class="user-select-auto"><code>git config --global http.proxy http://user:pass@yourproxy:port</code></p>
+			<p class="user-select-auto"><code>git config --global --unset https.proxy</code></p>
+			<p class="user-select-auto"><code>git config --global --unset http.proxy</code></p>
+		</li>
+	</ul>
+	
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">To set/add remote address of the Git repository</p>
+			<p class="user-select-auto"><code>git remote set-url origin $GIT_REPOSITORY_URL</code></p>
+			<p class="user-select-auto"><code>git remote add origin $GIT_REPOSITORY_URL</code></p>
+		</li>
+	</ul>
+	
 	<ul class="list-unstyled">
 		<li>
 			<p class="font-weight-bold text-muted">To count the commits in a date range in your current branch</p>
-			<p class=""><code>git rev-list --count HEAD --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot;</code></p>
+			<p class="user-select-auto"><code>git rev-list --count HEAD --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot;</code></p>
 		</li>
 		<li>
 			<p class="font-weight-bold text-muted">If you want the count for all branches in one go use --all additionally</p>
-			<p class=""><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all</code></p>
+			<p class="user-select-auto"><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all</code></p>
 		</li>
 		<li>
 			<p class="font-weight-bold text-muted">If you want to exclude merge-commits, use option --no-merges</p>
-			<p class=""><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all --no-merges</code></p>
+			<p class="user-select-auto"><code>git rev-list --count --since=&quot;Dec 3 2015&quot;  --before=&quot;Jan 3 2016&quot; --all --no-merges</code></p>
+		</li>
+	</ul>
+	
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">To set the default text editor for all Git operations</p>
+			<p class="user-select-auto"><code>git config --global core.editor emacs</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To set a template for commit messages</p>
+			<p class="user-select-auto"><code>git config --global commit.template ~/.gitmessage.txt</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To set the default color of the GUI</p>
+			<p class="user-select-auto"><code>git config --global color.ui false | auto | always | true</code></p>
+		</li>
+		
+		<li>
+			<p class="font-weight-bold text-muted">To configure CRLF option for files</p>
+			<p class="user-select-auto"><code>git config --global core.autocrlf true | input | false</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To configure checking of Git object sanity</p>
+			<p class="user-select-auto"><code>git config --system receive.fsckObjects true</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">To tell Git to refuse force-pushes</p>
+			<p class="user-select-auto"><code>git config --system receive.denyNonFastForwards true</code></p>
 		</li>
 	</ul>
 </div>
+
+
+<!-- git config --system receive.denyDeletes true
+git config --global core.whitespace trailing-space,-space-before-tab,indent-with-non-tab,tab-in-indent,cr-at-eol
+git config --global core.whitespace -space-before-tab,indent-with-non-tab,tab-in-indent,cr-at-eol
+git config --global --list --show-origin
+git config --list --show-origin
+
+git config --global http.proxyAuthMethod 'basic'
+
+git config --global http.postBuffer 524288000
+git config --global credential.helper manager
+-->

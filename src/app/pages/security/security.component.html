@@ -1,4 +1,23 @@
 <div class="container">
     <p class="h4 my-2"><i class="fab fa-shield-alt"></i> SSL/Security</p>
     <awd-article-list [tableId]="'ssl'" [articles]="articles"></awd-article-list>
+	
+	<ul class="list-unstyled">
+		<li>
+			<p class="font-weight-bold text-muted">Generate your private key and public certificate</p>
+			<p class="user-select-auto"><code>openssl req -newkey rsa:2048 -nodes -keyout key.pem -x509 -days 730 -out certificate.pem</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">Review the created certificate</p>
+			<p class="user-select-auto"><code>openssl x509 -text -noout -in certificate.pem</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">Combine your key and certificate in a PKCS#12 (P12) bundle</p>
+			<p class="user-select-auto"><code>openssl pkcs12 -inkey key.pem -in certificate.pem -export -out certificate.p12</code></p>
+		</li>
+		<li>
+			<p class="font-weight-bold text-muted">Validate your P2 file</p>
+			<p class="user-select-auto"><code>openssl pkcs12 -in certificate.p12 -noout -info</code></p>
+		</li>
+	</ul>
 </div>
