@@ -4,14 +4,14 @@ export const JAVA_RESOURCES: Array<Article> = [
     {
         id: 1,
         title: 'Design Good Key for HashMap',
-        source: 'HowToDo In Java',
+        source: 'HowToDoInJava',
 		published: null,
         url: 'https://howtodoinjava.com/java/collections/hashmap/design-good-key-for-hashmap/'
     },
     {
         id: 2,
         title: 'How HashMap works in Java',
-        source: 'HowToDo In Java',
+        source: 'HowToDoInJava',
 		published: null,
         url: 'https://howtodoinjava.com/java/collections/hashmap/how-hashmap-works-in-java/'
     },
@@ -75,7 +75,35 @@ export const JAVA_RESOURCES: Array<Article> = [
         id: 11,
         title: 'Using Spring Boot for OAuth2 and JWT REST Protection',
         source: 'Toptal',
-		published: null,
+		published: '2018-05-18',
         url: 'https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection'
-    }
+    },
+	{
+		id: 12,
+		title: 'Spring Security Siteminder Pre-authentication Example',
+		source: 'HowToDoInJava',
+		published: '2013-10-13',
+		url: 'https://howtodoinjava.com/spring-security/spring-3-security-siteminder-pre-authentication-example/'
+	},
+	{
+		id: 13,
+		title: 'How to validate SM_USER header in Spring Security preauthentication for siteminder',
+		source: 'StackOverflow',
+		published: '2019-01-18',
+		url: 'https://stackoverflow.com/questions/54250421/how-to-validate-sm-user-header-in-spring-security-preauthentication-for-sitemind'
+	},
+	{
+		id: 14,
+		title: 'Spring Security Java-based Configuration Example',
+		source: 'DineshOnJava',
+		published: '2017-02-24',
+		url: 'https://www.dineshonjava.com/spring-security-java-based-configuration-with-example/'
+	},
+	{
+		id: 15,
+		title: 'Spring Security with SiteMinder Integration',
+		source: 'JavaInSimpleWay',
+		published: '2017-03-16',
+		url: 'https://javainsimpleway.com/spring-security-with-site-minder-integration/'
+	}
 ];
