@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WebsphereComponent } from './websphere.component';
+import { WebSphereComponent } from './websphere.component';
 
-describe('WebsphereComponent', () => {
-  let component: WebsphereComponent;
-  let fixture: ComponentFixture<WebsphereComponent>;
+describe('WebSphereComponent', () => {
+  let component: WebSphereComponent;
+  let fixture: ComponentFixture<WebSphereComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WebsphereComponent ]
+      declarations: [ WebSphereComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WebsphereComponent);
+    fixture = TestBed.createComponent(WebSphereComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

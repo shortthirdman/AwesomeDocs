@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './websphere.component.html',
   styleUrls: ['./websphere.component.scss']
 })
-export class WebsphereComponent implements OnInit {
+export class WebSphereComponent implements OnInit {
 
   constructor() { }
 
