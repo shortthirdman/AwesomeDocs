@@ -5,14 +5,14 @@ export const JAVA_RESOURCES: Array<Article> = [
         id: 1,
         title: 'Design Good Key for HashMap',
         source: 'HowToDoInJava',
-		published: null,
+		published: '2013-06-12',
         url: 'https://howtodoinjava.com/java/collections/hashmap/design-good-key-for-hashmap/'
     },
     {
         id: 2,
         title: 'How HashMap works in Java',
         source: 'HowToDoInJava',
-		published: null,
+		published: '2012-11-24',
         url: 'https://howtodoinjava.com/java/collections/hashmap/how-hashmap-works-in-java/'
     },
     {
@@ -126,5 +126,19 @@ export const JAVA_RESOURCES: Array<Article> = [
 		source: 'StackOverflow',
 		published: '2016-08-16',
 		url: 'https://stackoverflow.com/questions/38894585/how-to-invalidate-siteminder-session'
+	},
+	{
+		id: 19,
+		title: 'Stateless API Security with Spring Boot, Part 1',
+		source: 'InSource',
+		published: '2018-05-28',
+		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-1.html'
+	},
+	{
+		id: 20,
+		title: 'Stateless API Security with Spring Boot, Part 2',
+		source: 'InSource',
+		published: '2018-05-31',
+		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-2.html'
 	}
 ];
