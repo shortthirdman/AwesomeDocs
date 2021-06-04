@@ -18,35 +18,35 @@ export const JAVA_RESOURCES: Array<Article> = [
     {
         id: 3,
         title: 'Volatile and Transient Keywords in Java',
-        source: 'Geeks For Geeks',
+        source: 'GeeksforGeeks',
 		published: null,
         url: 'https://www.geeksforgeeks.org/difference-between-volatile-and-transient-keywords-in-java/'
     },
     {
         id: 4,
         title: 'Serialization and Deserialization in Java',
-        source: 'Geeks For Geeks',
+        source: 'GeeksforGeeks',
 		published: null,
         url: 'https://www.geeksforgeeks.org/serialization-in-java/'
     },
     {
         id: 5,
         title: 'Streams and Collections in Java',
-        source: 'Geeks For Geeks',
+        source: 'GeeksforGeeks',
 		published: null,
         url: 'https://www.geeksforgeeks.org/difference-between-streams-and-collections-in-java/'
     },
     {
         id: 6,
         title: 'Stack vs Heap Memory Allocation',
-        source: 'Geeks For Geeks',
+        source: 'GeeksforGeeks',
 		published: null,
         url: 'https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/'
     },
     {
         id: 7,
         title: 'Procedural and Object Oriented Programming',
-        source: 'Geeks For Geeks',
+        source: 'GeeksforGeeks',
 		published: null,
         url: 'https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/'
     },
@@ -61,14 +61,14 @@ export const JAVA_RESOURCES: Array<Article> = [
         id: 9,
         title: 'Storing Hashed Password to Database in Java (Using Bcrypt)',
         source: 'Devglan',
-		published: null,
+		published: '2017-05-07',
         url: 'https://www.devglan.com/spring-mvc/storing-hashed-password-database-java'
     },
     {
         id: 10,
         title: 'Spring Boot Security Password Encoding using Bcrypt Encoder',
         source: 'Devglan',
-		published: null,
+		published: '2017-01-17',
         url: 'https://www.devglan.com/spring-security/spring-boot-security-password-encoding-bcrypt-encoder'
     },
     {
@@ -112,5 +112,19 @@ export const JAVA_RESOURCES: Array<Article> = [
 		source: 'Roy Tutorials',
 		published: '2017-03-05',
 		url: 'https://roytuts.com/spring-security-pre-authentication-example/'
+	},
+	{
+		id: 17,
+		title: 'Integrating Spring Security with SiteMinder',
+		source: 'StackOverflow',
+		published: '2014-04-09',
+		url: 'https://stackoverflow.com/questions/22952047/integrating-spring-security-with-siteminder'
+	},
+	{
+		id: 18,
+		title: 'How to invalidate SiteMinder session',
+		source: 'StackOverflow',
+		published: '2016-08-16',
+		url: 'https://stackoverflow.com/questions/38894585/how-to-invalidate-siteminder-session'
 	}
 ];
