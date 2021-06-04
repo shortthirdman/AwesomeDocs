@@ -44,6 +44,9 @@ const routes: Routes = [
 		path: 'devops', component: DevOpsComponent, data: { pageTitle: 'DevOps' }
 	},
 	{
+		path: 'websphere', component: WebSphereComponent, data: { pageTitle: 'IBM WebSphere Application Server' }
+	},
+	{
 		path: '**', component: PageNotFoundComponent, data: { pageTitle: '404 Not Found' }
 	}
 ];

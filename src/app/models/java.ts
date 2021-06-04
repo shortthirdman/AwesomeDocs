@@ -105,5 +105,12 @@ export const JAVA_RESOURCES: Array<Article> = [
 		source: 'JavaInSimpleWay',
 		published: '2017-03-16',
 		url: 'https://javainsimpleway.com/spring-security-with-site-minder-integration/'
+	},
+	{
+		id: 16,
+		title: 'Spring Security Pre-authentication Example',
+		source: 'Roy Tutorials',
+		published: '2017-03-05',
+		url: 'https://roytuts.com/spring-security-pre-authentication-example/'
 	}
 ];

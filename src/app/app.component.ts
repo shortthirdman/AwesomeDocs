@@ -18,7 +18,8 @@ export class AppComponent implements OnInit, AfterViewInit {
 	{ label: 'DevOps', route: 'devops' },
 	{ label: 'PowerShell', route: 'powershell' },
 	{ label: 'UNIX/Linux', route: 'linux' },
-	{ label: 'Security', route: 'security' }
+	{ label: 'Security', route: 'security' },
+	{ label: 'IBM WebSphere App Server', route: 'websphere' }
   ];
   
   constructor(private router: Router) {
