@@ -11,6 +11,7 @@ import { PythonComponent } from './pages/python/python.component';
 import { SecurityComponent } from './pages/security/security.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { GitComponent } from './pages/git/git.component';
+import { WebSphereComponent } from './pages/websphere/websphere.component';
 
 const routes: Routes = [
 	{
@@ -57,4 +58,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent, GitComponent];
+export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent, GitComponent, WebSphereComponent];
