@@ -52,9 +52,23 @@ export const ANGULAR_RESOURCES: Array<Article> = [
     },
     {
         id: 8,
-        title: '',
-        source: '',
-		published: null,
-        url: ''
+        title: 'Build Your First Progressive Web Application with Angular and Spring Boot',
+        source: 'Okta Developer',
+		published: '2017-05-09',
+        url: 'https://developer.okta.com/blog/2017/05/09/progressive-web-applications-with-angular-and-spring-boot'
+    },
+	{
+        id: 9,
+        title: 'Angular Authentication with OpenID Connect and Okta in 20 Minutes',
+        source: 'Okta Developer',
+		published: '2017-04-17',
+        url: 'https://developer.okta.com/blog/2017/04/17/angular-authentication-with-oidc'
+    },
+	{
+        id: 10,
+        title: 'Build a CRUD App with Angular 9 and Spring Boot 2.2',
+        source: 'Okta Developer',
+		published: '2020-01-06',
+        url: 'https://developer.okta.com/blog/2020/01/06/crud-angular-9-spring-boot-2'
     }
 ];
