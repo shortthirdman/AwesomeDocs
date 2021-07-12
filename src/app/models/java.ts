@@ -140,5 +140,19 @@ export const JAVA_RESOURCES: Array<Article> = [
 		source: 'InSource',
 		published: '2018-05-31',
 		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-2.html'
+	},
+	{
+		id: 21,
+		title: 'Secure Spring Boot Application With Keycloak',
+		source: 'DZone',
+		published: '2021-04-23',
+		url: 'https://dzone.com/articles/secure-spring-boot-application-with-keycloak'
+	},
+	{
+		id: 22,
+		title: 'A Quick Guide to Using Keycloak with Spring Boot',
+		source: 'Baeldung',
+		published: '2021-06-09',
+		url: 'https://www.baeldung.com/spring-boot-keycloak'
 	}
 ];

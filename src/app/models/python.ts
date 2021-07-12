@@ -105,5 +105,19 @@ export const PYTHON_RESOURCES: Array<Article> = [
 		source: 'FreeCodeCamp',
 		published: null,
 		url: 'https://www.freecodecamp.org/news/how-to-send-notifications-to-your-web-app-using-python-ba490b893292/'
+	},
+	{
+		id: 16,
+		title: 'Build a Python Jupyter Notebook Server with Docker & Heroku',
+		source: 'CodingForEntrepreneurs',
+		published: '2020-07-17',
+		url: 'https://www.codingforentrepreneurs.com/blog/jupyter-production-server-on-docker-heroku'
+	},
+	{
+		id: 17,
+		title: 'Adding Jupyter Notebook Extensions to a Docker Image',
+		source: 'TowardsDataScience',
+		published: '2020-04-02',
+		url: 'https://towardsdatascience.com/adding-jupyter-notebook-extensions-to-a-docker-image-851bc2601ca3'
 	}
 ];
