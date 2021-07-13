@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --cross-origin anonymous",
+    "build": "ng build --aot --prod --cross-origin anonymous",
     "test": "ng test --code-coverage --progress --watch=false --browsers=ChromeHeadlessCustom",
     "lint": "ng lint",
     "e2e": "ng e2e"
