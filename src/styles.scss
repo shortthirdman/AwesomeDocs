@@ -7,9 +7,14 @@ $fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
 
-html[theme='dark-mode'] {
-    filter: invert(1) hue-rotate(180deg);
-}
+// PrimeNG 11.4.x
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+
+// html[data-theme='dark-mode'] {
+//     filter: invert(1) hue-rotate(180deg);
+// }
 
 html {
     font-family: sans-serif;

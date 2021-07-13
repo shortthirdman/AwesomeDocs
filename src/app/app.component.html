@@ -3,6 +3,9 @@
     <img src="assets/images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="AwesomeDocs">
     {{ title }}
   </a>
+  <div class="switch form-check form-switch">
+	<input class="form-check-input" type="checkbox" id="themeSwitch">
+  </div>
 </nav>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -22,7 +25,5 @@
   </div>
 </div>
 <main id="content" class="mt-1 p-4 p-md-5 pt-5">
-	<!-- <perfect-scrollbar class="scroll-container" [scrollIndicators]="true" [config]="config" [usePSClass]="true"> -->
 	<router-outlet></router-outlet>
-	<!-- </perfect-scrollbar> -->
 </main>

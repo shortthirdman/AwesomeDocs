@@ -10,24 +10,29 @@ import { AppRoutingModule, routeComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ArticleListComponent } from './pages/article-list/article-list.component';
 
+import { TableModule } from 'primeng/table';
+
 registerLocaleData(en);
 
 @NgModule({
   declarations: [
     AppComponent,
-	routeComponents,
-	ArticleListComponent
+    routeComponents,
+    ArticleListComponent
   ],
   imports: [
     BrowserModule,
-	CommonModule,
-	BrowserAnimationsModule,
-	RouterModule,
-	
-	AppRoutingModule
+    CommonModule,
+    BrowserAnimationsModule,
+    RouterModule,
+
+    TableModule,
+    AppRoutingModule
   ],
-  providers: [DatePipe],
-  exports: [ routeComponents, ArticleListComponent ],
+  providers: [
+    DatePipe
+  ],
+  exports: [routeComponents, ArticleListComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
