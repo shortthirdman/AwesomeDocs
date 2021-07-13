@@ -1,6 +1,7 @@
 import { Component, OnInit, AfterViewInit, ElementRef, Inject } from '@angular/core';
 import { Router } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
+import * as packageJson from 'package.json';
 
 @Component({
   selector: 'awd-root',
@@ -9,6 +10,7 @@ import { DOCUMENT } from '@angular/common';
 })
 export class AppComponent implements OnInit, AfterViewInit {
 
+  appVersion: string;
   title: string = 'AwesomeDocs';
   navLinks: any[] = [
     { label: 'Angular', route: 'angular' },
@@ -24,10 +26,10 @@ export class AppComponent implements OnInit, AfterViewInit {
   ];
 
   constructor(private router: Router, private elRef: ElementRef, @Inject(DOCUMENT) private document: Document) {
+    this.appVersion = packageJson.version;
   }
 
   ngOnInit(): void {
-    
   }
 
   ngAfterViewInit(): void {

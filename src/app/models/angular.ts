@@ -70,5 +70,19 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         source: 'Okta Developer',
 		published: '2020-01-06',
         url: 'https://developer.okta.com/blog/2020/01/06/crud-angular-9-spring-boot-2'
+    },
+	{
+        id: 11,
+        title: 'Angular 10 - Role Based Authorization Tutorial with Example',
+        source: 'Jason Watmore\'s Blog',
+		published: '2020-09-09',
+        url: 'https://jasonwatmore.com/post/2020/09/09/angular-10-role-based-authorization-tutorial-with-example'
+    },
+	{
+        id: 12,
+        title: 'RxJS - Auto Unsubscribe from Observable after first value',
+        source: 'Jason Watmore\'s Blog',
+		published: '2020-08-11',
+        url: 'https://jasonwatmore.com/post/2020/08/11/rxjs-auto-unsubscribe-from-observable-after-first-value'
     }
 ];

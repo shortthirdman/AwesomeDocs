@@ -23,6 +23,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+            ],
             "outputPath": "dist/AwesomeDocs",
             "index": "src/index.html",
             "main": "src/main.ts",
