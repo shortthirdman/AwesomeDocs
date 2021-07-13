@@ -5,49 +5,49 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         id: 1,
         title: 'What\'s New in Angular 11?',
         source: 'Telerik',
-		published: null,
+		published: '2020-12-02',
         url: 'https://www.telerik.com/blogs/whats-new-angular-11'
     },
     {
         id: 2,
         title: 'Top Features in Angular 10',
         source: 'Telerik',
-		published: null,
+		published: '2020-08-07',
         url: 'https://www.telerik.com/blogs/top-features-angular-10'
     },
     {
         id: 3,
         title: 'What\'s New in Angular 10',
         source: 'Telerik',
-		published: null,
+		published: '2020-06-30',
         url: 'https://www.telerik.com/blogs/whats-new-angular-10'
     },
     {
         id: 4,
         title: 'Angular 8 - Integrate Stripe Payment Gateway',
         source: 'W3Path',
-		published: null,
+		published: '2019-06-18',
         url: 'https://w3path.com/angular-8-integrate-stripe-payment-gateway/'
     },
     {
         id: 5,
         title: 'Deploying Angular apps in Nginx',
         source: 'Dev Dungeon',
-		published: null,
+		published: '2019-06-22',
         url: 'https://www.devdungeon.com/content/deploy-angular-apps-nginx'
     },
     {
         id: 6,
         title: 'Deploy Angular application to NGINX',
         source: 'Devglan',
-		published: null,
+		published: '2018-06-08',
         url: 'https://www.devglan.com/angular/deploy-angular-app-nginx'
     },
     {
         id: 7,
         title: 'Build a full-stack web application with Angular 7 and Nest.js',
         source: 'Buddy Works',
-		published: null,
+		published: '2020-09-21',
         url: 'https://buddy.works/tutorials/build-a-full-stack-web-application-with-angular-7-and-nest-js'
     },
     {
