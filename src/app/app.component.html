@@ -3,12 +3,18 @@
     <img src="assets/images/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="AwesomeDocs">
     {{ title }}
   </a>
-  <div class="switch form-check form-switch">
-	<input class="form-check-input" type="checkbox" id="themeSwitch">
-  </div>
-  <div class="version">
-	<p class="fw-lighter font-monospace">{{ appVersion }}</p>
-  </div>
+  <ul class="list-inline">
+	<li class="list-inline-item" *ngIf="false">
+		<div class="switch form-check form-switch">
+		  <input class="form-check-input" type="checkbox" id="themeSwitch">
+		</div>
+	</li>
+	<li class="list-inline-item" *ngIf="appVersion !== ''">
+		<div class="version">
+		  <p class="fw-lighter font-monospace">Version {{ appVersion }}</p>
+		</div>
+	</li>
+  </ul>
 </nav>
 <div class="jumbotron jumbotron-fluid">
   <div class="container">

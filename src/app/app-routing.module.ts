@@ -12,6 +12,7 @@ import { SecurityComponent } from './pages/security/security.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { GitComponent } from './pages/git/git.component';
 import { WebSphereComponent } from './pages/websphere/websphere.component';
+import { SiteMinderComponent } from './pages/siteminder/siteminder.component';
 
 const routes: Routes = [
 	{
@@ -48,6 +49,9 @@ const routes: Routes = [
 		path: 'websphere', component: WebSphereComponent, data: { pageTitle: 'IBM WebSphere Application Server' }
 	},
 	{
+		path: 'siteminder', component: SiteMinderComponent, data: { pageTitle: 'CA SiteMinder' }
+	},
+	{
 		path: '**', component: PageNotFoundComponent, data: { pageTitle: '404 Not Found' }
 	}
 ];
@@ -58,4 +62,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent, GitComponent, WebSphereComponent];
+export const routeComponents = [AngularComponent, JavaComponent,NodejsComponent, LinuxComponent, SecurityComponent, PowershellComponent, PythonComponent, DevOpsComponent, PageNotFoundComponent, GitComponent, WebSphereComponent, SiteMinderComponent];

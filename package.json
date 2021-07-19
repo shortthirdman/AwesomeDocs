@@ -1,11 +1,11 @@
 {
   "name": "awesomedocs-site",
-  "version": "1.0.0",
+  "version": "3.2.0",
   "description": "Awesome Docs",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "prebuild": "npm run clean",
+	"prebuild": "npm run clean",
     "build": "ng build --aot --prod --cross-origin anonymous",
     "test": "ng test --code-coverage --progress --watch=false --browsers=ChromeHeadlessCustom",
     "lint": "ng lint",

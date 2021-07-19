@@ -5,70 +5,70 @@ export const PYTHON_RESOURCES: Array<Article> = [
         id: 1,
         title: 'OpenCV Age Detection with Deep Learning',
         source: 'PyImageSearch',
-		published: null,
+		published: '2020-04-13',
         url: 'https://www.pyimagesearch.com/2020/04/13/opencv-age-detection-with-deep-learning/'
     },
 	{
         id: 2,
         title: 'Gender & Age Classification using OpenCV Deep Learning ( C++/Python )',
         source: 'Learn OpenCV',
-		published: null,
+		published: '2019-02-19',
         url: 'https://www.learnopencv.com/age-gender-classification-using-opencv-deep-learning-c-python/'
     },
 	{
         id: 3,
         title: 'Face Detection In Python Using A Webcam',
         source: 'Real Python',
-		published: null,
+		published: '2016-05-09',
         url: 'https://realpython.com/face-detection-in-python-using-a-webcam/'
     },
 	{
         id: 4,
         title: 'Face Detection With Python',
         source: 'Real Python',
-		published: null,
+		published: '2016-06-05',
         url: 'https://realpython.com/face-recognition-with-python/'
     },
 	{
         id: 5,
         title: 'Make a Twitter Bot in Python With Tweepy',
         source: 'Real Python',
-		published: null,
+		published: '2019-04-20',
         url: 'https://realpython.com/twitter-bot-python-tweepy/'
     },
 	{
         id: 6,
         title: 'Twitter Sentiment Analysis – Python, Docker, Elasticsearch, Kibana',
         source: 'Real Python',
-		published: null,
+		published: '2019-02-05',
         url: 'https://realpython.com/twitter-sentiment-python-docker-elasticsearch-kibana/'
     },
 	{
         id: 7,
         title: 'COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow, and Deep Learning',
         source: 'PyImageSearch',
-		published: null,
+		published: '2020-08-06',
         url: 'https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/'
     },
 	{
         id: 8,
         title: 'Real-time Face detection | Face Mask Detection using OpenCV',
         source: 'My Great Learning',
-		published: null,
+		published: '2020-07-22',
         url: 'https://www.mygreatlearning.com/blog/real-time-face-detection/'
     },
 	{
         id: 9,
         title: 'Mining Twitter Data With Python - Part 1',
         source: 'Marco Bonzanini',
-		published: null,
+		published: '2015-03-02',
         url: 'https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/'
     },
 	{
         id: 10,
         title: 'Scraping COVID-19 Statistics Using BeautifulSoup',
         source: 'Geeks For Geeks',
-		published: null,
+		published: '2020-12-29',
         url: 'https://www.geeksforgeeks.org/scraping-covid-19-statistics-using-beautifulsoup/'
     },
 	{

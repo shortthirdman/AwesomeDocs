@@ -22,7 +22,8 @@ export class AppComponent implements OnInit, AfterViewInit {
     { label: 'PowerShell', route: 'powershell' },
     { label: 'UNIX/Linux', route: 'linux' },
     { label: 'Security', route: 'security' },
-    { label: 'IBM WebSphere App Server', route: 'websphere' }
+    { label: 'IBM WAS', route: 'websphere' },
+	{ label: 'SiteMinder', route: 'siteminder' }
   ];
 
   constructor(private router: Router, private elRef: ElementRef, @Inject(DOCUMENT) private document: Document) {
@@ -33,7 +34,7 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    this.themeSwitcher();
+    // this.themeSwitcher();
   }
 
   navigateTo(path: string) {
