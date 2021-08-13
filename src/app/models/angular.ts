@@ -6,6 +6,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'What\'s New in Angular 11?',
         source: 'Telerik',
 		published: '2020-12-02',
+		author: null,
         url: 'https://www.telerik.com/blogs/whats-new-angular-11'
     },
     {
@@ -13,6 +14,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Top Features in Angular 10',
         source: 'Telerik',
 		published: '2020-08-07',
+		author: null,
         url: 'https://www.telerik.com/blogs/top-features-angular-10'
     },
     {
@@ -20,6 +22,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'What\'s New in Angular 10',
         source: 'Telerik',
 		published: '2020-06-30',
+		author: null,
         url: 'https://www.telerik.com/blogs/whats-new-angular-10'
     },
     {
@@ -27,6 +30,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Angular 8 - Integrate Stripe Payment Gateway',
         source: 'W3Path',
 		published: '2019-06-18',
+		author: null,
         url: 'https://w3path.com/angular-8-integrate-stripe-payment-gateway/'
     },
     {
@@ -34,6 +38,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Deploying Angular apps in Nginx',
         source: 'Dev Dungeon',
 		published: '2019-06-22',
+		author: null,
         url: 'https://www.devdungeon.com/content/deploy-angular-apps-nginx'
     },
     {
@@ -41,6 +46,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Deploy Angular application to NGINX',
         source: 'Devglan',
 		published: '2018-06-08',
+		author: null,
         url: 'https://www.devglan.com/angular/deploy-angular-app-nginx'
     },
     {
@@ -48,6 +54,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Build a full-stack web application with Angular 7 and Nest.js',
         source: 'Buddy Works',
 		published: '2020-09-21',
+		author: null,
         url: 'https://buddy.works/tutorials/build-a-full-stack-web-application-with-angular-7-and-nest-js'
     },
     {
@@ -55,6 +62,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Build Your First Progressive Web Application with Angular and Spring Boot',
         source: 'Okta Developer',
 		published: '2017-05-09',
+		author: null,
         url: 'https://developer.okta.com/blog/2017/05/09/progressive-web-applications-with-angular-and-spring-boot'
     },
 	{
@@ -62,6 +70,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Angular Authentication with OpenID Connect and Okta in 20 Minutes',
         source: 'Okta Developer',
 		published: '2017-04-17',
+		author: null,
         url: 'https://developer.okta.com/blog/2017/04/17/angular-authentication-with-oidc'
     },
 	{
@@ -69,6 +78,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Build a CRUD App with Angular 9 and Spring Boot 2.2',
         source: 'Okta Developer',
 		published: '2020-01-06',
+		author: null,
         url: 'https://developer.okta.com/blog/2020/01/06/crud-angular-9-spring-boot-2'
     },
 	{
@@ -76,6 +86,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'Angular 10 - Role Based Authorization Tutorial with Example',
         source: 'Jason Watmore\'s Blog',
 		published: '2020-09-09',
+		author: null,
         url: 'https://jasonwatmore.com/post/2020/09/09/angular-10-role-based-authorization-tutorial-with-example'
     },
 	{
@@ -83,6 +94,7 @@ export const ANGULAR_RESOURCES: Array<Article> = [
         title: 'RxJS - Auto Unsubscribe from Observable after first value',
         source: 'Jason Watmore\'s Blog',
 		published: '2020-08-11',
+		author: null,
         url: 'https://jasonwatmore.com/post/2020/08/11/rxjs-auto-unsubscribe-from-observable-after-first-value'
     }
 ];

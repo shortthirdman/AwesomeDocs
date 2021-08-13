@@ -12,6 +12,9 @@
 				<div class="p-d-flex p-jc-between p-ai-center">Source</div>
 			</th>
 			<th>
+				<div class="p-d-flex p-jc-between p-ai-center">Author</div>
+			</th>
+			<th>
 				<div class="p-d-flex p-jc-between p-ai-center">Published</div>
 			</th>
 			<th>
@@ -24,6 +27,8 @@
 			<td>{{ item?.id }}</td>
 			<td>{{ item?.title }}</td>
 			<td>{{ item?.source }}</td>
+			<td *ngIf="item?.author">{{ item?.author }}</td>
+			<td *ngIf="!item?.author">N/A</td>
 			<td>{{ item?.published | date:'d MMMM yyyy' }}</td>
 			<td>
 				<a href="{{ item?.url }}" target="_blank" class="" rel="noopener nofollow noreferrer"><i class="fas fa-external-link-alt"></i></a>

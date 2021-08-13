@@ -6,6 +6,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Design Good Key for HashMap',
         source: 'HowToDoInJava',
 		published: '2013-06-12',
+		author: null,
         url: 'https://howtodoinjava.com/java/collections/hashmap/design-good-key-for-hashmap/'
     },
     {
@@ -13,6 +14,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'How HashMap works in Java',
         source: 'HowToDoInJava',
 		published: '2012-11-24',
+		author: null,
         url: 'https://howtodoinjava.com/java/collections/hashmap/how-hashmap-works-in-java/'
     },
     {
@@ -20,6 +22,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Volatile and Transient Keywords in Java',
         source: 'GeeksforGeeks',
 		published: null,
+		author: null,
         url: 'https://www.geeksforgeeks.org/difference-between-volatile-and-transient-keywords-in-java/'
     },
     {
@@ -27,6 +30,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Serialization and Deserialization in Java',
         source: 'GeeksforGeeks',
 		published: null,
+		author: null,
         url: 'https://www.geeksforgeeks.org/serialization-in-java/'
     },
     {
@@ -34,6 +38,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Streams and Collections in Java',
         source: 'GeeksforGeeks',
 		published: null,
+		author: null,
         url: 'https://www.geeksforgeeks.org/difference-between-streams-and-collections-in-java/'
     },
     {
@@ -41,6 +46,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Stack vs Heap Memory Allocation',
         source: 'GeeksforGeeks',
 		published: null,
+		author: null,
         url: 'https://www.geeksforgeeks.org/stack-vs-heap-memory-allocation/'
     },
     {
@@ -48,6 +54,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Procedural and Object Oriented Programming',
         source: 'GeeksforGeeks',
 		published: null,
+		author: null,
         url: 'https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/'
     },
     {
@@ -55,6 +62,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Switch Multiple Java Versions in Windows',
         source: 'Happy Coders',
 		published: null,
+		author: null,
         url: 'https://www.happycoders.eu/java/how-to-switch-multiple-java-versions-windows/'
     },
     {
@@ -62,6 +70,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Storing Hashed Password to Database in Java (Using Bcrypt)',
         source: 'Devglan',
 		published: '2017-05-07',
+		author: null,
         url: 'https://www.devglan.com/spring-mvc/storing-hashed-password-database-java'
     },
     {
@@ -69,6 +78,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Spring Boot Security Password Encoding using Bcrypt Encoder',
         source: 'Devglan',
 		published: '2017-01-17',
+		author: null,
         url: 'https://www.devglan.com/spring-security/spring-boot-security-password-encoding-bcrypt-encoder'
     },
     {
@@ -76,6 +86,7 @@ export const JAVA_RESOURCES: Array<Article> = [
         title: 'Using Spring Boot for OAuth2 and JWT REST Protection',
         source: 'Toptal',
 		published: '2018-05-18',
+		author: null,
         url: 'https://www.toptal.com/spring/spring-boot-oauth2-jwt-rest-protection'
     },
 	{
@@ -83,6 +94,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Spring Security Siteminder Pre-authentication Example',
 		source: 'HowToDoInJava',
 		published: '2013-10-13',
+		author: null,
 		url: 'https://howtodoinjava.com/spring-security/spring-3-security-siteminder-pre-authentication-example/'
 	},
 	{
@@ -90,6 +102,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'How to validate SM_USER header in Spring Security preauthentication for siteminder',
 		source: 'StackOverflow',
 		published: '2019-01-18',
+		author: null,
 		url: 'https://stackoverflow.com/questions/54250421/how-to-validate-sm-user-header-in-spring-security-preauthentication-for-sitemind'
 	},
 	{
@@ -97,6 +110,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Spring Security Java-based Configuration Example',
 		source: 'DineshOnJava',
 		published: '2017-02-24',
+		author: null,
 		url: 'https://www.dineshonjava.com/spring-security-java-based-configuration-with-example/'
 	},
 	{
@@ -104,6 +118,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Spring Security with SiteMinder Integration',
 		source: 'JavaInSimpleWay',
 		published: '2017-03-16',
+		author: null,
 		url: 'https://javainsimpleway.com/spring-security-with-site-minder-integration/'
 	},
 	{
@@ -111,6 +126,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Spring Security Pre-authentication Example',
 		source: 'Roy Tutorials',
 		published: '2017-03-05',
+		author: null,
 		url: 'https://roytuts.com/spring-security-pre-authentication-example/'
 	},
 	{
@@ -118,6 +134,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Integrating Spring Security with SiteMinder',
 		source: 'StackOverflow',
 		published: '2014-04-09',
+		author: null,
 		url: 'https://stackoverflow.com/questions/22952047/integrating-spring-security-with-siteminder'
 	},
 	{
@@ -125,6 +142,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'How to invalidate SiteMinder session',
 		source: 'StackOverflow',
 		published: '2016-08-16',
+		author: null,
 		url: 'https://stackoverflow.com/questions/38894585/how-to-invalidate-siteminder-session'
 	},
 	{
@@ -132,6 +150,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Stateless API Security with Spring Boot, Part 1',
 		source: 'InSource',
 		published: '2018-05-28',
+		author: null,
 		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-1.html'
 	},
 	{
@@ -139,6 +158,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Stateless API Security with Spring Boot, Part 2',
 		source: 'InSource',
 		published: '2018-05-31',
+		author: null,
 		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-2.html'
 	},
 	{
@@ -146,6 +166,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Secure Spring Boot Application With Keycloak',
 		source: 'DZone',
 		published: '2021-04-23',
+		author: null,
 		url: 'https://dzone.com/articles/secure-spring-boot-application-with-keycloak'
 	},
 	{
@@ -153,6 +174,15 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'A Quick Guide to Using Keycloak with Spring Boot',
 		source: 'Baeldung',
 		published: '2021-06-09',
+		author: null,
 		url: 'https://www.baeldung.com/spring-boot-keycloak'
+	},
+	{
+		id: 23,
+		title: 'RequestBody and Multipart on Spring Boot',
+		source: 'Perficient',
+		published: '2020-07-27',
+		author: 'Praseela Radhakrishnan',
+		url: 'https://blogs.perficient.com/2020/07/27/requestbody-and-multipart-on-spring-boot/'
 	}
 ];

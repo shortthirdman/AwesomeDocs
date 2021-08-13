@@ -6,6 +6,7 @@ export const SSL_RESOURCES: Array<Article> = [
         title: 'Create and Install an Apache Self-Signed Certificate',
         source: 'SSL Shopper',
 		published: null,
+		author: null,
         url: 'https://www.sslshopper.com/article-how-to-create-and-install-an-apache-self-signed-certificate.html'
     },
 	{
@@ -13,6 +14,7 @@ export const SSL_RESOURCES: Array<Article> = [
         title: 'Creating your own SSL certificate authority',
         source: 'DataCenter OverLords',
 		published: null,
+		author: null,
         url: 'https://datacenteroverlords.com/2012/03/01/creating-your-own-ssl-certificate-authority/'
     },
 	{
@@ -20,6 +22,7 @@ export const SSL_RESOURCES: Array<Article> = [
         title: 'SSL Certificate Authority for local HTTPS development',
         source: 'Delicious Brains',
 		published: null,
+		author: null,
         url: 'https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/'
     },
 	{
@@ -27,6 +30,7 @@ export const SSL_RESOURCES: Array<Article> = [
         title: 'Creating self-signed SSL certificates with OpenSSL',
         source: 'Dev Dungeon',
 		published: null,
+		author: null,
         url: 'https://www.devdungeon.com/content/creating-self-signed-ssl-certificates-openssl'
     },
 	{
@@ -34,6 +38,7 @@ export const SSL_RESOURCES: Array<Article> = [
         title: 'Using SSL in Local Development',
         source: 'Revath Kumar',
 		published: null,
+		author: null,
         url: 'https://blog.revathskumar.com/2020/07/using-ssl-in-local-development.html'
     }
 ];

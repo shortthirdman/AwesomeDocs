@@ -3,5 +3,6 @@ export interface Article {
     title: string;
     source: string;
 	published: any;
+	author?: string;
     url: string;
 }
