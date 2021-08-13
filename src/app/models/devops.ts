@@ -33,7 +33,7 @@ export const DEVOPS_RESOURCES: Array<Article> = [
 		author: null,
         url: 'https://buddy.works/tutorials/securing-docker-image'
     },
-	 {
+	{
         id: 5,
         title: 'Optimizing Dockerfile for Node.js (Part 1)',
         source: 'Buddy Works',
@@ -41,12 +41,36 @@ export const DEVOPS_RESOURCES: Array<Article> = [
 		author: null,
         url: 'https://buddy.works/tutorials/optimizing-dockerfile-for-node-js-part-1'
     },
-	 {
+	{
         id: 6,
         title: 'Optimizing Dockerfile for Node.js (Part 2)',
         source: 'Buddy Works',
 		published: null,
 		author: null,
         url: 'https://buddy.works/tutorials/optimizing-dockerfile-for-node-js-part-2'
+    },
+	{
+        id: 7,
+        title: 'How To Communicate Between Docker Containers',
+        source: 'Tutorial Works',
+		published: '2021-08-03',
+		author: 'Tom Donohue',
+        url: 'https://www.tutorialworks.com/container-networking/'
+    },
+	{
+        id: 8,
+        title: 'Rootless container/host networking in Podman, without the hassle',
+        source: 'Tutorial Works',
+		published: '2021-08-03',
+		author: 'Tom Donohue',
+        url: 'https://www.tutorialworks.com/podman-host-networking/'
+    },
+	{
+        id: 9,
+        title: 'Managing your Podman containers with Cockpit on Fedora',
+        source: 'Tutorial Works',
+		published: '2021-03-21',
+		author: 'Tom Donohue',
+        url: 'https://www.tutorialworks.com/podman-monitoring-cockpit-fedora/'
     }
 ];

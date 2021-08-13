@@ -1,6 +1,6 @@
 {
   "name": "awesomedocs-site",
-  "version": "3.2.0",
+  "version": "3.2.3",
   "description": "Awesome Docs",
   "scripts": {
     "ng": "ng",
