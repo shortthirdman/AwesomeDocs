@@ -40,5 +40,29 @@ export const LINUX_RESOURCES: Array<Article> = [
 		published: '2018-02-09',
 		author: null,
         url: 'https://tecadmin.net/backup-crontabs-for-users-in-linux/'
-    }
+    },
+	{
+        id: 6,
+        title: 'Install PostgreSQL 11 on CentOS 8/RHEL 8',
+        source: 'Computing for Geeks',
+		published: '2021-07-08',
+		author: 'Josphat Mutai',
+        url: 'https://computingforgeeks.com/how-to-install-postgresql-11-on-centos-rhel-8/'
+    }//,
+	// {
+        // id: 7,
+        // title: '',
+        // source: '',
+		// published: '',
+		// author: '',
+        // url: ''
+    // },
+	// {
+        // id: 8,
+        // title: '',
+        // source: '',
+		// published: '',
+		// author: '',
+        // url: ''
+    // }
 ];
