@@ -72,5 +72,29 @@ export const DEVOPS_RESOURCES: Array<Article> = [
 		published: '2021-03-21',
 		author: 'Tom Donohue',
         url: 'https://www.tutorialworks.com/podman-monitoring-cockpit-fedora/'
+    },
+	{
+        id: 10,
+        title: 'Deploying/Hosting Spring Boot applications on Heroku',
+        source: 'Callicoder',
+		published: '2018-10-29',
+		author: 'Rajeev Singh',
+        url: 'https://www.callicoder.com/deploy-host-spring-boot-apps-on-heroku/'
+    },
+	{
+        id: 11,
+        title: 'Deploying/Hosting Spring Boot applications on AWS using Elastic Beanstalk for Free',
+        source: 'Callicoder',
+		published: '2018-07-17',
+		author: 'Rajeev Singh',
+        url: 'https://www.callicoder.com/deploy-host-spring-boot-apps-on-aws-using-elastic-beanstalk/'
+    },
+	{
+        id: 12,
+        title: 'Dockerizing your Spring Boot applications',
+        source: 'Callicoder',
+		published: '2018-04-19',
+		author: 'Rajeev Singh',
+        url: 'https://www.callicoder.com/spring-boot-docker-example/'
     }
 ];

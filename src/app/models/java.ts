@@ -184,5 +184,13 @@ export const JAVA_RESOURCES: Array<Article> = [
 		published: '2020-07-27',
 		author: 'Praseela Radhakrishnan',
 		url: 'https://blogs.perficient.com/2020/07/27/requestbody-and-multipart-on-spring-boot/'
+	},
+	{
+		id: 24,
+		title: 'Value Objects with Spring Boot REST API',
+		source: 'Wim Deblauwe',
+		published: '2020-02-26',
+		author: 'Wim Deblauwe',
+		url: 'https://www.wimdeblauwe.com/blog/2020/02/26/value-objects-with-spring-boot-rest-api/'
 	}
 ];
