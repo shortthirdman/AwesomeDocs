@@ -192,5 +192,29 @@ export const JAVA_RESOURCES: Array<Article> = [
 		published: '2020-02-26',
 		author: 'Wim Deblauwe',
 		url: 'https://www.wimdeblauwe.com/blog/2020/02/26/value-objects-with-spring-boot-rest-api/'
+	},
+	{
+		id: 25,
+		title: 'Building a chat application with Spring Boot and WebSocket',
+		source: 'Callicoder',
+		published: '2017-07-27',
+		author: 'Rajeev Singh',
+		url: 'https://www.callicoder.com/spring-boot-websocket-chat-example/'
+	},
+	{
+		id: 26,
+		title: 'Spring Boot + Spring Security + JWT + MySQL + React Full Stack Polling App - Part 1',
+		source: 'Callicoder',
+		published: '2018-02-05',
+		author: 'Rajeev Singh',
+		url: 'https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-1/'
+	},
+	{
+		id: 27,
+		title: 'Spring Boot + Spring Security + JWT + MySQL + React Full Stack Polling app - Part 2',
+		source: 'Callicoder',
+		published: '2018-02-06',
+		author: 'Rajeev Singh',
+		url: 'https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/'
 	}
 ];

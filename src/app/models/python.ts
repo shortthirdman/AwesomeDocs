@@ -11,7 +11,7 @@ export const PYTHON_RESOURCES: Array<Article> = [
     },
 	{
         id: 2,
-        title: 'Gender & Age Classification using OpenCV Deep Learning ( C++/Python )',
+        title: 'Gender & Age Classification using OpenCV Deep Learning',
         source: 'Learn OpenCV',
 		published: '2019-02-19',
 		author: null,
