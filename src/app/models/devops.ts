@@ -83,7 +83,7 @@ export const DEVOPS_RESOURCES: Array<Article> = [
     },
 	{
         id: 11,
-        title: 'Deploying/Hosting Spring Boot applications on AWS using Elastic Beanstalk for Free',
+        title: 'Deploying/Hosting Spring Boot applications on AWS using Elastic Beanstalk',
         source: 'Callicoder',
 		published: '2018-07-17',
 		author: 'Rajeev Singh',
