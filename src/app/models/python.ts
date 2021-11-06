@@ -136,5 +136,37 @@ export const PYTHON_RESOURCES: Array<Article> = [
 		published: '2020-04-02',
 		author: null,
 		url: 'https://towardsdatascience.com/adding-jupyter-notebook-extensions-to-a-docker-image-851bc2601ca3'
+	},
+	{
+		id: 18,
+		title: 'Performing Sentiment Analysis on Movie Reviews',
+		source: 'TowardsDataScience',
+		published: '2020-03-22',
+		author: 'Bryan Tan',
+		url: 'https://towardsdatascience.com/imdb-reviews-or-8143fe57c825'
+	},
+	{
+		id: 19,
+		title: 'Sentiment Analysis with Python (Part 1) - Classifying IMDb Movie Reviews',
+		source: 'TowardsDataScience',
+		published: '2018-07-31',
+		author: 'Aaron Kub',
+		url: 'https://towardsdatascience.com/sentiment-analysis-with-python-part-1-5ce197074184'
+	},
+	{
+		id: 20,
+		title: 'Sentiment Analysis with Python (Part 2) - Improving a Movie Review Sentiment Classifier',
+		source: 'TowardsDataScience',
+		published: '2019-01-24',
+		author: 'Aaron Kub',
+		url: 'https://towardsdatascience.com/sentiment-analysis-with-python-part-2-4f71e7bde59a'
+	},
+	{
+		id: 21,
+		title: 'Text Analysis of Amazon Customer Reviews',
+		source: 'Medium',
+		published: '2019-12-03',
+		author: 'Vaisakh Nambiar',
+		url: 'https://medium.com/analytics-vidhya/text-analysis-of-amazon-customer-reviews-b4fcf0663216'
 	}
 ];

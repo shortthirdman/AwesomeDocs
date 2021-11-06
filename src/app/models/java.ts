@@ -150,7 +150,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Stateless API Security with Spring Boot, Part 1',
 		source: 'InSource',
 		published: '2018-05-28',
-		author: null,
+		author: 'Steve Riesenberg',
 		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-1.html'
 	},
 	{
@@ -158,7 +158,7 @@ export const JAVA_RESOURCES: Array<Article> = [
 		title: 'Stateless API Security with Spring Boot, Part 2',
 		source: 'InSource',
 		published: '2018-05-31',
-		author: null,
+		author: 'Steve Riesenberg',
 		url: 'https://insource.io/blog/articles/stateless-api-security-with-spring-boot-part-2.html'
 	},
 	{
